@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/*----------------------------------------------------------------------------------------------------
+ *
+ * Theme Name: HIGHLAND Child
+ * Theme URI: https://dainashiyesterday.com/
+ * Author: Takeshi Shibata
+ * Author URI: https://dainashiyesterday.com/
+ * Description: WordPressテーマ『HIGHLAND』の子テーマ
+ * Version: 1.0.8
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: highland
+ * Template: highland
+ *
+ *--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------
+ *
+ *
+ *
+ *
+ * 【個別設定】
+ * ※基本的な表示に必要となる設定です。消さないようにしてください。
+ *
+ *
+ *
+ *
+--------------------------------------------------------------------------------*/
+/*------------------------------------------------------------
+
+ ? ヘッダーロゴ
+
+------------------------------------------------------------*/
+/*@media (min-width: 769px) {
+
+	#header .header_inner .logo { width: 0px; }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+	#header .header_inner .logo { width: 0%; }
+
+}
+
+@media (max-width: 480px) {
+
+	#header .header_inner .logo { max-width: 0%; }
+
+}*/
+/*------------------------------------------------------------
+
+   フッターロゴ
+
+------------------------------------------------------------*/
+/*@media (min-width: 769px) {
+
+	#footer .contact .footer_logo { max-width: 0px; }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+	#footer .contact .footer_logo { max-width: 0%; }
+
+}
+
+@media (max-width: 480px) {
+
+	#footer .contact .footer_logo { max-width: 0%; }
+
+}*/
+/*--------------------------------------------------------------------------------
+ *
+ *
+ *
+ *
+ * 【カスタマイズ設定】
+ * ※独自にスタイル指定する場合は以下に記述してください。
+ * ※メディアクエリの設定には↓をご利用ください。
+ *
+ *
+ *
+ *
+--------------------------------------------------------------------------------*/
+#body {
+  background-color: #f0f0ea;
+}
+#body #wrap {
+  background-color: #f0f0ea;
+}
+#body #nav_pc ul {
+  display: flex;
+  justify-content: center;
+}
+
+/* メディアクエリ記述例
+===============================================*/
+
+/*# sourceMappingURL=style.css.map */
