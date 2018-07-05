@@ -83,17 +83,26 @@
  *
 --------------------------------------------------------------------------------*/
 #body {
-  background-color: #f0f0ea;
-}
+  background-color: #f0f0ea; }
 #body #wrap {
-  background-color: #f0f0ea;
-}
+  background-color: #f0f0ea; }
 #body #nav_pc ul {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 /* メディアクエリ記述例
 ===============================================*/
+@media (max-width: 480px) {
+  .share ul {
+    display: flex !important; }
+  .share ul li {
+    width: 100px; }
+  .share ul li a {
+    width: 90%;
+    margin: 0 !important; }
+  .share ul li i {
+    padding: 0 !important; }
+  .share ul li span:last-child {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
