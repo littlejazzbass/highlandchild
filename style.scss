@@ -91,13 +91,38 @@
     background-color: #f0f0ea;
     #wrap{
         background-color: #f0f0ea;
+        .title{
+            a:hover{
+                color: #8BC34A;
+            }
+        }
     }
     #nav_pc{
         ul{
             display: flex;
             justify-content: center;
+            a:hover{
+                color: #8BC34A;
+            }
         }
-
+    }
+    #content{
+        .h1 {
+            padding: 0.25em 0.5em;/*上下 左右の余白*/
+            color: #494949;/*文字色*/
+            background: transparent;/*背景透明に*/
+            border-left: solid 5px #7db4e6;/*左線*/
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .plink{
+            color:black !important;
+            margin-bottom: 5px;
+        }
+        .olink{
+            color: #4a89c3 !important;
+        }
     }
 }
 
@@ -114,5 +139,22 @@
 }
 
 @media (max-width: 480px) {
-
+    .share{
+        ul{
+            display: flex !important;
+            li{
+                width: 100px;
+                a{
+                    width: 90%;
+                    margin: 0 !important;
+                }
+                i{
+                    padding: 0 !important;
+                }
+                span:last-child{
+                    display: none;
+                }
+            }
+        }
+    }
 }

@@ -83,26 +83,61 @@
  *
 --------------------------------------------------------------------------------*/
 #body {
-  background-color: #f0f0ea; }
+  background-color: #f0f0ea;
+}
 #body #wrap {
-  background-color: #f0f0ea; }
+  background-color: #f0f0ea;
+}
+#body #wrap .title a:hover {
+  color: #8BC34A;
+}
 #body #nav_pc ul {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
+#body #nav_pc ul a:hover {
+  color: #8BC34A;
+}
+#body #content .h1 {
+  padding: 0.25em 0.5em;
+  /*上下 左右の余白*/
+  color: #494949;
+  /*文字色*/
+  background: transparent;
+  /*背景透明に*/
+  border-left: solid 5px #7db4e6;
+  /*左線*/
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#body #content .plink {
+  color: black !important;
+  margin-bottom: 5px;
+}
+#body #content .olink {
+  color: #4a89c3 !important;
+}
 
 /* メディアクエリ記述例
 ===============================================*/
 @media (max-width: 480px) {
   .share ul {
-    display: flex !important; }
+    display: flex !important;
+  }
   .share ul li {
-    width: 100px; }
+    width: 100px;
+  }
   .share ul li a {
     width: 90%;
-    margin: 0 !important; }
+    margin: 0 !important;
+  }
   .share ul li i {
-    padding: 0 !important; }
+    padding: 0 !important;
+  }
   .share ul li span:last-child {
-    display: none; } }
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
